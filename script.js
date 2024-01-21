@@ -1,10 +1,10 @@
 //complete this code
 class Person {
-	constructor(){
+	constructor(name,age){
 		this.name = name;
 		this.age = age;
 	}
-	let obj = new Person(name,age);
+	
 	get Name(){
 		return this.name;
 	}
@@ -25,7 +25,7 @@ class Teacher extends Person {
 		`)
 	}
 }
-
+let obj = new Person('John', 25);
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
