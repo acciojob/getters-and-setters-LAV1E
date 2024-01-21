@@ -4,6 +4,7 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
+	let obj = new Person(name,age);
 	get Name(){
 		return this.name;
 	}
